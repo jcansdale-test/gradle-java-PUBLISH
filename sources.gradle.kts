@@ -7,7 +7,7 @@ repositories {
     jcenter()
 }
 
-group = "ORG.test.sources"
+group = "ORG.test.sources.FOO"
 version = "1.1-SNAPSHOT"
 
 java {
