@@ -2,6 +2,7 @@ name: SNAPSHOT
 
 on:
   push:
+  workflow_dispatch:
 
   # trigger when starred
   watch:
