@@ -2,6 +2,7 @@ name: SNAPSHOT with sources.jar
 
 on:
   push:
+  workflow_dispatch:
 
   # trigger when starred
   watch:

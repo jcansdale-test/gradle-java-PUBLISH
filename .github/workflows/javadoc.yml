@@ -2,6 +2,7 @@ name: SNAPSHOT with javadoc.jar
 
 on:
   push:
+  workflow_dispatch:
 
   # trigger when starred
   watch:
