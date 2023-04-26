@@ -14,7 +14,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
 
-    - run: ./gradlew publish -b sources.gradle.kts
+    - run: ./gradlew publish -b sources.gradle.kts --debug
       env:
         USERNAME: token
         TOKEN: ${{ secrets.GITHUB_TOKEN }}
